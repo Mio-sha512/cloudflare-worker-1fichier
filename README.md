@@ -8,7 +8,7 @@ To get started with Cloudflare Indexer for 1fichier, follow these steps:
 
 1. Login to [cloudflare.com](https://www.cloudflare.com).
 2. Login to [1fichier.com](https://1fichier.com) and get your api key from [here](https://1fichier.com/console/params.pl).
-3. Make a new worker and copy the contents of `worker.js` into the worker.
+3. Make a new worker and copy the contents of [`worker.js`](worker.js) into the worker.
 4. Update the `API_KEY` and `ROOT_FOLDER_ID` variables with your own credentials.
 5. Save the script and deploy it to Cloudflare.
 6. Enjoy!
